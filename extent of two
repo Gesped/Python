@@ -1,0 +1,2 @@
+ext = int(input())
+print(2**ext)
