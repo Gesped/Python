@@ -1,0 +1,9 @@
+a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+if a <= e and b <= d or a <=d and b <=e:
+    print('YES')
+elif b <= e and c <= d or b <= d and c <= e:
+    print('YES')
+elif a <= e and c <= d or a <=d and c <=e:
+    print('YES')
+else:
+    print('NO')
