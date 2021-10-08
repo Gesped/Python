@@ -1,0 +1,6 @@
+p = int(input())
+x = int(input())
+y = int(input())
+s = (x + y / 100) * (1 + 0.01 * p)
+x = int(s)
+print(int(s), round((s % 1 * 100)))
