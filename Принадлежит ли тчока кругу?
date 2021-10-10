@@ -4,7 +4,7 @@ def IsPointInCircle(x, y, xc, yc, r):
     return print('NO')
 
 
-x, y= float(input()), float(input())
+x, y = float(input()), float(input())
 xc, yc = float(input()), float(input())
 r = float(input())
 IsPointInCircle(x, y, xc, yc, r)
